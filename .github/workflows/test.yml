@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install node
-          uses: actions/setup-node@v3
+        uses: actions/setup-node@v3
       - run: npm install -g bats
       - run: bats -v
       - run: echo "힘내! 오늘동"
